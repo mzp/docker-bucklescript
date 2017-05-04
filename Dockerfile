@@ -14,4 +14,4 @@ RUN (curl -sL https://deb.nodesource.com/setup_6.x | bash -) && \
   apt-get clean && \
   rm -rf /var/cache/apt/archives/* /var/lib/apt/lists/*
 
-RUN npm install -g bs-platform
+RUN npm install -g bs-platform@1.7.3
